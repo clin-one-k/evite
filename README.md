@@ -19,3 +19,4 @@ Edit app/config/parameters.yml line 6 and 7 to update the sql username and passw
 Create database degevite and execute degevite-2013-01-16.sql, but skip line 85 and after.
 Now you should be able to see the page.
 
+Make sure on /web/tickets has write permission so the ticket image can be written.
