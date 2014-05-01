@@ -20,3 +20,8 @@ Create database degevite and execute degevite-2013-01-16.sql, but skip line 85 a
 Now you should be able to see the page.
 
 Make sure on /web/tickets has write permission so the ticket image can be written.
+
+Config:
+app/config/parameters.yml - change mailer_default_from and bcc_register
+
+Email content is located at /src/TC/Bundle/DegEviteBundle/Resources/views/Emails
