@@ -25,3 +25,7 @@ Config:
 app/config/parameters.yml - change mailer_default_from and bcc_register
 
 Email content is located at /src/TC/Bundle/DegEviteBundle/Resources/views/Emails
+
+Amazon Email server only allowed limited sender. Check the server config.
+
+If the clear cache (php app/console cache:clear) does not work well, check http://symfony.com/doc/current/book/installation.html#configuration-and-setup to update the permission.
